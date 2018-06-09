@@ -11,8 +11,8 @@
 
 	zlevel_datum_type = /datum/map_z_level/endeavor
 
-	lobby_icon = 'icons/misc/title_vr.dmi'
-	lobby_screens = list("tether")
+	lobby_icon = 'icons/misc/title_arf.dmi'
+	lobby_screens = list("endeavor")
 	id_hud_icons = 'icons/mob/hud_jobs_vr.dmi'
 	station_name  = "ARFS Endeavor"
 	station_short = "Endeavor"
@@ -55,7 +55,7 @@
 	spawnpoint_died = /datum/spawnpoint/cryo
 	spawnpoint_left = /datum/spawnpoint/cryo
 	spawnpoint_stayed = /datum/spawnpoint/cryo
-/*
+
 // Short range computers see only the six main levels, others can see the surrounding surface levels.
 /datum/map/endeavor/get_map_levels(var/srcz, var/long_range = TRUE)
 	if (long_range && (srcz in map_levels))
@@ -69,7 +69,7 @@
 			Z_LEVEL_SPACE_HIGH)
 	else
 		return ..()
-*/
+
 // We have a bunch of stuff common to the station z levels
 /datum/map_z_level/endeavor/ship
 	flags = MAP_LEVEL_STATION|MAP_LEVEL_CONTACT|MAP_LEVEL_PLAYER|MAP_LEVEL_CONSOLES
