@@ -3,6 +3,7 @@
 #define Z_LEVEL_SPACE_MID					2
 #define Z_LEVEL_SPACE_HIGH					3
 #define Z_LEVEL_TRANSIT						4
+#define Z_LEVEL_CENTCOM						5
 
 /datum/map/endeavor
 	name = "Endeavor"
@@ -98,3 +99,9 @@
 	z = Z_LEVEL_TRANSIT
 	name = "Transit"
 	flags = MAP_LEVEL_SEALED|MAP_LEVEL_PLAYER|MAP_LEVEL_CONTACT
+
+/datum/map_z_level/endeavor/central_command
+	z = Z_LEVEL_CENTCOM
+	name = "Central Command"
+	flags = MAP_LEVEL_ADMIN|MAP_LEVEL_CONTACT|MAP_LEVEL_SEALED
+	base_turf = /turf/space
