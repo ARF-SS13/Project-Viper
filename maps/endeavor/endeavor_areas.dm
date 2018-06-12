@@ -26,8 +26,17 @@
 
 //Turbolift areas
 /area/turbolift/endeavor/deck1
-	name = "Deck One - Elevator"
+	name = "Deck One - Medical, Cargo, "
 /area/turbolift/endeavor/deck2
-	name = "Deck Two - Maintenance, Engineering"
+	name = "Deck Two - Maintenance, Engineering, Life Support Systems"
 /area/turbolift/endeavor/deck3
 	name = "Deck Three - Cryogenics, Cafeteria, Bridge, Hydroponics, Bar"
+
+
+//Electrical substations
+/area/maintenance/substation/deck1
+	name = "Substation - Deck 1"
+/area/maintenance/substation/deck2
+	name = "Substation - Deck 2"
+/area/maintenance/substation/deck3
+	name = "Substation - Deck 3"

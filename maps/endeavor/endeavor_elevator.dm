@@ -3,11 +3,7 @@
 	depth = 3
 
 	areas_to_use = list(
-		/area/turbolift/endeavor_deckone,
-		/area/turbolift/endeavor_decktwo,
-		/area/turbolift/endeavor_deckthree
+		/area/turbolift/endeavor/deck1,
+		/area/turbolift/endeavor/deck2,
+		/area/turbolift/endeavor/deck3
 		)
-
-/area/turbolift/endeavor_deckone
-/area/turbolift/endeavor_decktwo
-/area/turbolift/endeavor_deckthree

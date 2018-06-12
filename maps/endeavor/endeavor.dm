@@ -4,6 +4,7 @@
 	#include "endeavor_elevator.dm"
 	#include "endeavor_areas.dm"
 	#include "endeavor_things.dm"
+	#include "endeavor_jobs.dm"
 
 	#include "endeavor-1.dmm" //Bottom deck
 	#include "endeavor-2.dmm" //Maintenance deck
