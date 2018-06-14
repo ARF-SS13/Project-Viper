@@ -10,6 +10,7 @@
 	#include "endeavor-2.dmm" //Maintenance deck
 	#include "endeavor-3.dmm" //Top deck
 	#include "endeavor-4.dmm" //Transit Z-Level
+	#include "endeavor-5.dmm" //CentComm
 
 	#define USING_MAP_DATUM /datum/map/endeavor
 
