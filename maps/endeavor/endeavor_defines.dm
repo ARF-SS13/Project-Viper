@@ -28,11 +28,11 @@
 	shuttle_docked_message = "The automated crew transfer ferry has docked at the %dock_name%. It will depart in approximately %ETD%."
 	shuttle_leaving_dock = "The automated crew transfer ferry has left the %dock_name%. Estimate %ETA% until the tram arrives at %dock_name%."
 	shuttle_called_message = "An automated crew transfer ferry is en route to the %dock_name%. It will arrive in approximately %ETA%"
-	shuttle_recall_message = "The scheduled crew transfer has been cancelled."
+	shuttle_recall_message = "The automated crew transfer has been cancelled."
 	emergency_shuttle_docked_message = "The evacuation tram has arrived at the tram station. You have approximately %ETD% to board the tram."
 	emergency_shuttle_leaving_dock = "The emergency tram has left the station. Estimate %ETA% until the shuttle arrives at %dock_name%."
-	emergency_shuttle_called_message = "An emergency evacuation has begun, and an off-schedule tram has been called. It will arrive at the tram station in approximately %ETA%."
-	emergency_shuttle_recall_message = "The evacuation tram has been recalled."
+	emergency_shuttle_called_message = "An emergency evacuation has begun, and an off-schedule ferry has been called. It will arrive at the tram station in approximately %ETA%."
+	emergency_shuttle_recall_message = "The evacuation ferry has been recalled."
 
 /*
 	shuttle_docked_message = "The scheduled Orange Line tram to the %dock_name% has arrived. It will depart in approximately %ETD%."
@@ -63,7 +63,7 @@
 							NETWORK_INTERROGATION
 							)
 
-	allowed_spawns = list("Cryogenic Storage")
+	allowed_spawns = list("Cryogenic Storage", "Arrivals Dock")
 	spawnpoint_died = /datum/spawnpoint/cryo
 	spawnpoint_left = /datum/spawnpoint/cryo
 	spawnpoint_stayed = /datum/spawnpoint/cryo
