@@ -1,3 +1,4 @@
+//Hallways
 /area/hallway/deck_one
 	icon = 'maps/endeavor/endeavor_area_icons.dmi'
 /area/hallway/deck_one/central
@@ -30,12 +31,14 @@
 /area/hallway/deck_four/central
 	icon_state = "deck4_hallc"
 	name = "\improper Deck Four - Central Hallway"
-
+/area/hallway/secondary/exit/deck_four
+	name = "\improper Deck Four - Departure Dock"
+	icon_state = "escape"
 
 
 //Turbolift areas
 /area/turbolift/endeavor/deckone
-	name = "Deck One - Medical, Cargo, Security"
+	name = "Deck One - Medical, Research"
 /area/turbolift/endeavor/decktwo
 	name = "Deck Two - Maintenance, Engineering, Life Support"
 /area/turbolift/endeavor/deckthree
@@ -65,3 +68,8 @@
 
 /area/crew_quarters/vip_lounge
 	name = "VIP Lounge"
+
+
+//Medbay
+/area/medical/medbay
+	name = "\improper Medbay Hallway"
