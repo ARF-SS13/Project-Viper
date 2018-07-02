@@ -3,6 +3,12 @@
 	icon_state = "fwindow"
 	maxhealth = 80
 
+
+/obj/structure/window/phoronreinforced/full
+	dir = SOUTHWEST
+	maxhealth = 160
+	icon_state = "phoronwindow0"
+
 //Endeavor map_data obj
 /obj/effect/landmark/map_data/endeavor
     height = 4
@@ -16,7 +22,7 @@
 		/obj/item/device/geiger = 3,
 		/obj/item/clothing/glasses/meson = 3)
 
-
+/*
 //Departure shuttle doors
 // ferry departure cryo doors that turn into ordinary airlock doors at round end
 /obj/machinery/cryopod/robot/door/ferry
@@ -62,7 +68,7 @@
 	display_name = "Arrivals Dock"
 	msg = "has arrived on the ferry"
 
-
+*/
 
 //explorer intercom
 /obj/item/device/radio/intercom/explorer

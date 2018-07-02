@@ -91,25 +91,25 @@
 	z = Z_LEVEL_ENDEAVOR_ONE
 	name = "Endeavor Deck 1"
 	base_turf = /turf/space
-	transit_chance = 33
+	transit_chance = 25
 
 /datum/map_z_level/endeavor/ship/two
 	z = Z_LEVEL_ENDEAVOR_TWO
 	name = "Endeavor Deck 2"
 	base_turf = /turf/simulated/open
-	transit_chance = 33
+	transit_chance = 25
 
 /datum/map_z_level/endeavor/ship/three
 	z = Z_LEVEL_ENDEAVOR_THREE
 	name = "Endeavor Deck 3"
 	base_turf = /turf/simulated/open
-	transit_chance = 33
+	transit_chance = 25
 
-/datum/map_z_level/endeavor/ship/four//Deck four will be largely empty except for some dorm rooms and stuff.
+/datum/map_z_level/endeavor/ship/four
 	z = Z_LEVEL_ENDEAVOR_FOUR
 	name = "Endeavor Deck 4"
 	base_turf = /turf/simulated/open
-	transit_chance = 33
+	transit_chance = 25
 
 /datum/map_z_level/endeavor/transit
 	z = Z_LEVEL_TRANSIT

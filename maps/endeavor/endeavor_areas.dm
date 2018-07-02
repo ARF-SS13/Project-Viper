@@ -73,3 +73,8 @@
 //Medbay
 /area/medical/medbay
 	name = "\improper Medbay Hallway"
+
+
+/area/construction/deckthree
+	name = "\improper Deck Three Construction Area"
+	icon_state = "yellow"
