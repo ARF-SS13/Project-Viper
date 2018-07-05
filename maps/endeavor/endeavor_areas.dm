@@ -78,3 +78,17 @@
 /area/construction/deckthree
 	name = "\improper Deck Three Construction Area"
 	icon_state = "yellow"
+
+//Mining
+/area/quartermaster/mining
+	icon_state = "outpost_mine_main"
+/area/quartermaster/mining/refining
+	name = "\improper Mining Refinery"
+/area/quartermaster/mining/storage
+	name = "\improper Mining Gear Storage"
+/area/quartermaster/mining/airlock
+	name = "\improper Mining Airlock"
+/area/quartermaster/mining/lobby
+	name = "\improper Mining Lobby"
+/area/maintenance/mining
+	name = "\improper Mining Maintenance"

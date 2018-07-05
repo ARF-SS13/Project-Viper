@@ -22,6 +22,24 @@
 		/obj/item/device/geiger = 3,
 		/obj/item/clothing/glasses/meson = 3)
 
+//Fax Machine Presets
+/obj/machinery/photocopier/faxmachine/cmo
+	department = "Chief Medical Officer's Office"
+/obj/machinery/photocopier/faxmachine/ce
+	department = "Chief Engineer's Office"
+/obj/machinery/photocopier/faxmachine/cap
+	department = "Colony Director's Office"
+/obj/machinery/photocopier/faxmachine/hos
+	department = "Head of Security's Office"
+/obj/machinery/photocopier/faxmachine/qm
+	department = "Quartermaster's Office"
+/obj/machinery/photocopier/faxmachine/warden
+	department = "Warden's Office"
+/obj/machinery/photocopier/faxmachine/mail
+	department = "Mailing Room"
+/obj/machinery/photocopier/faxmachine/sec
+	department = "Security"
+
 /*
 //Departure shuttle doors
 // ferry departure cryo doors that turn into ordinary airlock doors at round end

@@ -9,3 +9,9 @@
 	dock_target_station = "escape_dock"
 	dock_target_offsite = "centcom_dock"
 	move_time = SHUTTLE_TRANSIT_DURATION_RETURN
+
+
+
+//Mining
+/obj/machinery/computer/shuttle_control/mining
+	name = "mining shuttle control console"

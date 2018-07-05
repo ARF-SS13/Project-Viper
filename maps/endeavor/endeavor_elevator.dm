@@ -5,6 +5,7 @@
 	lift_size_x = 4
 	lift_size_y = 4
 	icon = 'icons/obj/turbolift_preview_5x5.dmi'
+	wall_type = null
 
 	areas_to_use = list(
 		/area/turbolift/endeavor/deckone,
