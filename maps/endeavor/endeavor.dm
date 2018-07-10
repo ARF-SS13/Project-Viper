@@ -13,7 +13,7 @@
 	#include "endeavor-3.dmm" //Deck 3
 	#include "endeavor-4.dmm" //Deck 4
 	#include "endeavor-5.dmm" //Transit
-	#include "endeavor-5.dmm" //CentComm
+	#include "endeavor-6.dmm" //CentComm
 
 	#define USING_MAP_DATUM /datum/map/endeavor
 

@@ -92,3 +92,5 @@
 	name = "\improper Mining Lobby"
 /area/maintenance/mining
 	name = "\improper Mining Maintenance"
+/area/quartermaster/mining/warehouse
+	name = "\improper Mining Warehouse"
