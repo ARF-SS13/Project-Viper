@@ -13,5 +13,14 @@
 
 
 //Mining
+/datum/shuttle/ferry/mining
+	name = "Mining"
+	warmup_time = 10
+	area_offsite = /area/shuttle/mining/outpost
+	area_station = /area/shuttle/mining/station
+	docking_controller_tag = "mining_shuttle"
+	dock_target_station = "mining_dock_airlock"
+	dock_target_offsite = "mining_outpost_airlock"
+
 /obj/machinery/computer/shuttle_control/mining
 	name = "mining shuttle control console"
