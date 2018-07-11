@@ -94,3 +94,30 @@
 	name = "\improper Mining Maintenance"
 /area/quartermaster/mining/warehouse
 	name = "\improper Mining Warehouse"
+
+
+//Security
+area/security/hallway
+	name = "\improper Security Hallway"
+	icon_state = "security"
+/area/security/forensics
+	name = "\improper Forensics Lab"
+	icon_state = "security"
+/area/security/breakroom
+	name = "\improper Security Breakroom"
+	icon_state = "security"
+/area/security/brig/visitation
+	name = "\improper Visitation"
+	icon_state = "security"
+/area/security/brig/bathroom
+	name = "\improper Brig Bathroom"
+	icon_state = "security"
+/area/security/armory/green
+	name = "\improper Armory - Green"
+	icon_state = "security_equip_storage"
+/area/security/armory/blue
+	name = "\improper Armory - Blue"
+	icon_state = "armory"
+/area/security/armory/red
+	name = "\improper Armory - Red"
+	icon_state = "red2"
