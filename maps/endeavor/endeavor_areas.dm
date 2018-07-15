@@ -3,48 +3,57 @@
 	icon = 'maps/endeavor/endeavor_area_icons.dmi'
 /area/hallway/deck_one/central
 	icon_state = "deck1_hallc"
-	name = "\improper Deck One - Central Hallway"
+	name = "\improper Deck 1 - Primary Hallway"
 
 
 /area/hallway/deck_two
 	icon = 'maps/endeavor/endeavor_area_icons.dmi'
 /area/hallway/deck_two/central
 	icon_state = "deck2_hallc"
-	name = "\improper Deck Two - Central Hallway"
+	name = "\improper Deck 2 - Primary Hallway"
 
 
 /area/hallway/deck_three
 	icon = 'maps/endeavor/endeavor_area_icons.dmi'
 /area/hallway/deck_three/fore
 	icon_state = "deck3_hallfore"
-	name = "\improper Deck Three - Fore Hallway"
+	name = "\improper Deck 3 - Fore Hallway"
 /area/hallway/deck_three/central
 	icon_state = "deck3_hallc"
-	name = "\improper Deck Three - Central Hallway"
+	name = "\improper Deck 3 - Central Hallway"
 /area/hallway/deck_three/aft
 	icon_state = "deck3_hallaft"
-	name = "\improper Deck Three - Aft Hallway"
+	name = "\improper Deck 3 - Aft Hallway"
 
 
 /area/hallway/deck_four
 	icon = 'maps/endeavor/endeavor_area_icons.dmi'
 /area/hallway/deck_four/central
 	icon_state = "deck4_hallc"
-	name = "\improper Deck Four - Central Hallway"
+	name = "\improper Deck 4 - Primary Hallway"
 /area/hallway/secondary/exit/deck_four
-	name = "\improper Deck Four - Departure Dock"
+	name = "\improper Deck 4 - Departure Dock"
 	icon_state = "escape"
 
 
+/area/hallway/deck_five
+	icon = 'maps/endeavor/endeavor_area_icons.dmi'
+/area/hallway/deck_five/central
+	icon_state = "deck5_hallc"
+	name = "\improper Deck 5 - Primary Hallway"
+
 //Turbolift areas
 /area/turbolift/endeavor/deckone
-	name = "Deck One - Medical, Research"
+	name = "Deck 1 - Medical, Research, Mining, Telecommunications, Gateway"
 /area/turbolift/endeavor/decktwo
-	name = "Deck Two - Maintenance, Engineering, Life Support"
+	name = "Deck 2 - Maintenance, Engineering, Life Support"
 /area/turbolift/endeavor/deckthree
-	name = "Deck Three - Cryogenics, Cafeteria, Bridge, Hydroponics, Bar"
+	name = "Deck 3 - Bar, Bridge, Cryogenics, Cafeteria, Hydroponics, Pool"
 /area/turbolift/endeavor/deckfour
-	name = "Deck Four - Dormitories"
+	name = "Deck 4 - Cargo Bay, Departures, Security, Excursion Shuttle"
+/area/turbolift/endeavor/deckfive
+	name = "Deck 5 - Dormitories"
+
 
 //Electrical substations
 /area/maintenance/substation/deckone
@@ -55,16 +64,42 @@
 	name = "Substation - Deck 3"
 /area/maintenance/substation/deckfour
 	name = "Substation - Deck 4"
+/area/maintenance/substation/deckfive
+	name = "Substation - Deck 5"
+
 
 //Restrooms
 /area/restroom
 	name = "Restroom"
 	icon = 'maps/endeavor/endeavor_area_icons.dmi'
 	icon_state = "restroom"
+/area/restroom/deckone
+	name = "Deck One - Restroom"
+/area/restroom/decktwo
+	name = "Deck Two - Restroom"
 /area/restroom/deckthree
 	name = "Deck Three - Restroom"
+/area/restroom/deckfour
+	name = "Deck Four - Restroom"
+/area/restroom/deckfive
+	name = "Deck Five - Restroom"
 
-
+//emergency storage
+/area/storage/emergency_storage/deckone
+	name = "Deck 1 - Emergency Storage"
+	icon_state = "emergencystorage"
+/area/storage/emergency_storage/decktwo
+	name = "Deck 2 - Emergency Storage"
+	icon_state = "emergencystorage"
+/area/storage/emergency_storage/deckthree
+	name = "Deck 3 - Emergency Storage"
+	icon_state = "emergencystorage"
+/area/storage/emergency_storage/deckfour
+	name = "Deck 4 - Emergency Storage"
+	icon_state = "emergencystorage"
+/area/storage/emergency_storage/deckfive
+	name = "Deck 5 - Emergency Storage"
+	icon_state = "emergencystorage"
 
 /area/crew_quarters/vip_lounge
 	name = "VIP Lounge"

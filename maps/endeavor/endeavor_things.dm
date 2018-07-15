@@ -92,3 +92,12 @@
 /obj/item/device/radio/intercom/explorer
 	name = "intercom (explorer)"
 	frequency = EXP_FREQ
+
+
+/obj/item/weapon/paper/pamphlet/phoenix
+	name = "pamphlet - Welcome to the ARFS Phoenix"
+	icon_state = "pamphlet"
+	info = "<b>Welcome to the ARFS Phoenix</b><br>\
+			Aboard this city-class colony ship, you'll find all of the commodities you might expect back home. Including, but not limited to:\
+			A variety of dining experiences, community sports teams, holographic beaches and other outdoor simulations, modern and generous living quarters, \
+			and other wonderful commodities."

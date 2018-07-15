@@ -3,8 +3,9 @@
 #define Z_LEVEL_ENDEAVOR_TWO			2
 #define Z_LEVEL_ENDEAVOR_THREE			3
 #define Z_LEVEL_ENDEAVOR_FOUR			4
-#define Z_LEVEL_TRANSIT					5
-#define Z_LEVEL_CENTCOM					6
+#define Z_LEVEL_ENDEAVOR_FIVE			5
+#define Z_LEVEL_TRANSIT					6
+#define Z_LEVEL_CENTCOM					7
 
 /datum/map/endeavor
 	name = "Endeavor"
@@ -18,14 +19,14 @@
 	id_hud_icons = 'icons/mob/hud_jobs_vr.dmi'
 	station_name  = "ARFS Endeavor"
 	station_short = "Endeavor"
-	dock_name     = "ARFS Endeavor"
+	dock_name     = "ARFS Phoenix"
 	boss_name     = "ARF Command"
 	boss_short    = "CentCom"
 	company_name  = "Alliance of Racial Federations"
 	company_short = "ARF"
 	starsys_name  = "Odin"
 
-	shuttle_docked_message = "The automated crew transfer ferry has docked at the %dock_name%. It will depart in approximately %ETD%."
+	shuttle_docked_message = "The automated crew transfer ferry has docked at the %dock_name%. It will depart for the %dock_name% in approximately %ETD%."
 	shuttle_leaving_dock = "The automated crew transfer ferry has left the %dock_name%. Estimate %ETA% until the tram arrives at %dock_name%."
 	shuttle_called_message = "An automated crew transfer ferry is en route to the %dock_name%. It will arrive in approximately %ETA%"
 	shuttle_recall_message = "The automated crew transfer has been cancelled."
@@ -91,25 +92,31 @@
 	z = Z_LEVEL_ENDEAVOR_ONE
 	name = "Endeavor Deck 1"
 	base_turf = /turf/space
-	transit_chance = 25
+	transit_chance = 20
 
 /datum/map_z_level/endeavor/ship/two
 	z = Z_LEVEL_ENDEAVOR_TWO
 	name = "Endeavor Deck 2"
 	base_turf = /turf/simulated/open
-	transit_chance = 25
+	transit_chance = 20
 
 /datum/map_z_level/endeavor/ship/three
 	z = Z_LEVEL_ENDEAVOR_THREE
 	name = "Endeavor Deck 3"
 	base_turf = /turf/simulated/open
-	transit_chance = 25
+	transit_chance = 20
 
 /datum/map_z_level/endeavor/ship/four
 	z = Z_LEVEL_ENDEAVOR_FOUR
 	name = "Endeavor Deck 4"
 	base_turf = /turf/simulated/open
-	transit_chance = 25
+	transit_chance = 20
+
+/datum/map_z_level/endeavor/ship/five
+	z = Z_LEVEL_ENDEAVOR_FIVE
+	name = "Endeavor Deck 5"
+	base_turf = /turf/simulated/open
+	transit_chance = 20
 
 /datum/map_z_level/endeavor/transit
 	z = Z_LEVEL_TRANSIT
