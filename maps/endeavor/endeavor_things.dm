@@ -29,6 +29,8 @@
 	department = "Chief Engineer's Office"
 /obj/machinery/photocopier/faxmachine/cap
 	department = "Colony Director's Office"
+/obj/machinery/photocopier/faxmachine/rd
+	department = "Research Director's Office"
 /obj/machinery/photocopier/faxmachine/hos
 	department = "Head of Security's Office"
 /obj/machinery/photocopier/faxmachine/qm
@@ -39,6 +41,8 @@
 	department = "Mailing Room"
 /obj/machinery/photocopier/faxmachine/sec
 	department = "Security"
+/obj/machinery/photocopier/faxmachine/bridge
+	department = "Bridge"
 
 /*
 //Departure shuttle doors
@@ -101,3 +105,14 @@
 			Aboard this city-class colony ship, you'll find all of the commodities you might expect back home. Including, but not limited to:\
 			A variety of dining experiences, community sports teams, holographic beaches and other outdoor simulations, modern and generous living quarters, \
 			and other wonderful commodities."
+
+
+//Signs
+/obj/structure/sign/deck5
+	icon = 'maps/endeavor/endeavor_decals.dmi'
+	desc = "A silver sign which reads 'DECK V'."
+	name = "DECK V"
+	icon_state = "deck5"
+
+
+

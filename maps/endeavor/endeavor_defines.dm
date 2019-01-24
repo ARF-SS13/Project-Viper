@@ -7,6 +7,9 @@
 #define Z_LEVEL_TRANSIT					6
 #define Z_LEVEL_CENTCOM					7
 
+#define Z_LEVEL_BOTTOM_DECK				Z_LEVEL_ENDEAVOR_ONE
+#define Z_LEVEL_TOP_DECK				Z_LEVEL_ENDEAVOR_FIVE
+
 /datum/map/endeavor
 	name = "Endeavor"
 	full_name = "ARFS Endeavor"
@@ -26,7 +29,7 @@
 	company_short = "ARF"
 	starsys_name  = "Odin"
 
-	shuttle_docked_message = "The automated crew transfer ferry has docked at the %dock_name%. It will depart for the %dock_name% in approximately %ETD%."
+	shuttle_docked_message = "The automated crew transfer ferry has docked at the %station_name%. It will depart for the %dock_name% in approximately %ETD%."
 	shuttle_leaving_dock = "The automated crew transfer ferry has left the %dock_name%. Estimate %ETA% until the tram arrives at %dock_name%."
 	shuttle_called_message = "An automated crew transfer ferry is en route to the %dock_name%. It will arrive in approximately %ETA%"
 	shuttle_recall_message = "The automated crew transfer has been cancelled."
@@ -69,18 +72,19 @@
 	spawnpoint_left = /datum/spawnpoint/cryo
 	spawnpoint_stayed = /datum/spawnpoint/cryo
 
-// Short range computers see only the six main levels, others can see the surrounding surface levels.
+// Short range computers see only the main levels
 /datum/map/endeavor/get_map_levels(var/srcz, var/long_range = TRUE)
 	if (long_range && (srcz in map_levels))
 		return map_levels
 	else if (srcz == Z_LEVEL_TRANSIT)
 		return list() // Nothing on transit!
-	else if (srcz >= Z_LEVEL_ENDEAVOR_ONE && srcz <= Z_LEVEL_ENDEAVOR_FOUR)
+	else if (srcz >= Z_LEVEL_BOTTOM_DECK && srcz <= Z_LEVEL_TOP_DECK)
 		return list(
 			Z_LEVEL_ENDEAVOR_ONE,
 			Z_LEVEL_ENDEAVOR_TWO,
 			Z_LEVEL_ENDEAVOR_THREE,
-			Z_LEVEL_ENDEAVOR_FOUR)
+			Z_LEVEL_ENDEAVOR_FOUR,
+			Z_LEVEL_ENDEAVOR_FIVE)
 	else
 		return ..()
 

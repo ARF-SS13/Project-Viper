@@ -52,7 +52,7 @@
 /area/turbolift/endeavor/deckfour
 	name = "Deck 4 - Cargo Bay, Departures, Security, Excursion Shuttle"
 /area/turbolift/endeavor/deckfive
-	name = "Deck 5 - Dormitories"
+	name = "Deck 5 - Dormitories, Holodeck, Laundry"
 
 
 //Electrical substations
@@ -156,3 +156,6 @@ area/security/hallway
 /area/security/armory/red
 	name = "\improper Armory - Red"
 	icon_state = "red2"
+/area/security/eva
+	name = "\improper Security EVA"
+	icon_state = "security_equip_storage"
