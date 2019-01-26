@@ -9,13 +9,14 @@
 	#include "endeavor_telecomms.dm"
 	#include "endeavor_shuttles.dm"
 
-	#include "endeavor-01-ship1.dmm" //Deck 1
-	#include "endeavor-02-ship2.dmm" //Deck 2
-	#include "endeavor-03-ship3.dmm" //Deck 3
-	#include "endeavor-04-ship4.dmm" //Deck 4
-	#include "endeavor-05-ship5.dmm" //Deck 5
-	#include "endeavor-06-transit.dmm" //Transit
-	#include "endeavor-07-centcomm.dmm" //CentComm
+	#include "endeavor-01-ship1.dmm" 		//Deck 1
+	#include "endeavor-02-ship2.dmm" 		//Deck 2
+	#include "endeavor-03-ship3.dmm" 		//Deck 3
+	#include "endeavor-04-ship4.dmm" 		//Deck 4
+	#include "endeavor-05-ship5.dmm" 		//Deck 5
+	#include "endeavor-06-transit.dmm" 		//Transit
+	#include "endeavor-07-centcomm.dmm" 	//CentComm
+	#include "endeavor-08-misc.dmm"			//Other maps
 
 	#define USING_MAP_DATUM /datum/map/endeavor
 

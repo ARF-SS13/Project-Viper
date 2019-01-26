@@ -159,3 +159,40 @@ area/security/hallway
 /area/security/eva
 	name = "\improper Security EVA"
 	icon_state = "security_equip_storage"
+
+
+//Holodorms
+/area/crew_quarters/sleep/holodorm1
+	name = "\improper Holodeck Dorm 1"
+	icon_state = "dk_yellow"
+
+/area/crew_quarters/sleep/holodorm2
+	name = "\improper Holodeck Dorm 2"
+	icon_state = "dk_yellow"
+
+/area/crew_quarters/sleep/holodorm3
+	name = "\improper Holodeck Dorm 3"
+	icon_state = "dk_yellow"
+
+/area/crew_quarters/sleep/holodorm4
+	name = "\improper Holodeck Dorm 4"
+	icon_state = "dk_yellow"
+
+/area/holodeck/holodorm/source_basic
+	name = "\improper Holodeck Source"
+/area/holodeck/holodorm/source_desert
+	name = "\improper Holodeck Source"
+/area/holodeck/holodorm/source_seating
+	name = "\improper Holodeck Source"
+/area/holodeck/holodorm/source_beach
+	name = "\improper Holodeck Source"
+/area/holodeck/holodorm/source_garden
+	name = "\improper Holodeck Source"
+/area/holodeck/holodorm/source_boxing
+	name = "\improper Holodeck Source"
+/area/holodeck/holodorm/source_snow
+	name = "\improper Holodeck Source"
+/area/holodeck/holodorm/source_space
+	name = "\improper Holodeck Source"
+/area/holodeck/holodorm/source_off
+	name = "\improper Holodeck Source"
